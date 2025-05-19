@@ -8,6 +8,6 @@ StudentRouter.get("/fetchallstudent",fetchAllStudent)
 StudentRouter.post("/createstudent",upload.single("StudentPhoto"),createStudent)
 StudentRouter.put("/updatestudent",updateStudent)
 StudentRouter.delete("/deletestudent",deleteStudent)
-StudentRouter.get("/getstudbyclg",getStudentByCollege)
+StudentRouter.post("/getstudbyclg",getStudentByCollege)
 
 export {StudentRouter}
